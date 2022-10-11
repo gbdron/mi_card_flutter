@@ -26,23 +26,21 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'Pacifico',
                     fontWeight: FontWeight.bold),
               ),
-              Container(
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 20, horizontal: 25),
-                padding: EdgeInsets.symmetric(horizontal: 20),
                 color: Colors.white54,
-                child: Row(children: [
-                  Icon(
-                    Icons.phone,
-                    size: 50,
+                child: Padding(
+                  padding: EdgeInsets.all(20),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                    ),
+                    title: Text(
+                      '43 3343 43',
+                      style: TextStyle(fontSize: 20),
+                    ),
                   ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    '33443 4343 43',
-                    style: TextStyle(fontSize: 30),
-                  )
-                ]),
+                ),
               )
             ],
           ),
