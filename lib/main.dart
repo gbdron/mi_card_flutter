@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 54, 244, 181),
         body: SafeArea(
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: [
               Container(
                 height: 100,
