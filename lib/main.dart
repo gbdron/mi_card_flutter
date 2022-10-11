@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 child: Text('Container 1'),
               ),
+              SizedBox(width: 20),
               Container(
                 height: 100,
                 width: 100,
