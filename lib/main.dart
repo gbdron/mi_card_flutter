@@ -17,6 +17,14 @@ class MyApp extends StatelessWidget {
                 radius: 50,
                 backgroundColor: Colors.red,
                 backgroundImage: AssetImage('images/me.jpg'),
+              ),
+              Text(
+                'Andrey',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 40,
+                    fontFamily: 'Pacifico',
+                    fontWeight: FontWeight.bold),
               )
             ],
           ),
