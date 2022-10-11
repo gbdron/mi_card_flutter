@@ -24,13 +24,13 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 height: 100,
-                width: 100,
+                width: 300,
                 color: Color.fromARGB(255, 152, 127, 182),
                 child: Text('Container 2'),
               ),
               Container(
                 height: 100,
-                width: 100,
+                width: double.infinity,
                 color: Color.fromARGB(255, 196, 105, 176),
                 child: Text('Container 3'),
               ),
