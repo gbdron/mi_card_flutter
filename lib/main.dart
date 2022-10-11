@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             verticalDirection: VerticalDirection.up,
             children: [
               Container(
